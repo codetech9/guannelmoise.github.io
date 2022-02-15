@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <!-- Fontawesome Stylesheet -->
+  <script src="https://kit.fontawesome.com/706755e43b.js" crossorigin="anonymous"></script>
+  <!--Fonts-->
+  <!-- Montserra -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Oswald:wght@300&display=swap" rel="stylesheet">
+  <!--Oswald-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Oswald&display=swap" rel="stylesheet">
+  <!-- title -->
+  <title>Mon Profile</title>
+</head>
+<body>
+  <header class="container">
+    <div class="card-profile" id="background-black">
+      <!-- H1 -->
+      <h1>Hi, i'm Moses &#128516;</h1>
+      <!-- img -->
+      <img src="images/avatar.png" alt="avatar_profile" id="img-radius">
+      <!-- about me -->
+      <p>I'm a former OSS technician passionate by new technologies, manga, tv shows and Web development</p>
+      <a href="https://www.lewagon.com/fr">Discover Le Wagon </a>
+    </div>
+  </header>
+  <main class="container">
+    <!--Programming Knowledge-->
+    <div class="card-profile">
+      <!-- h2 -->
+      <h2>My programming skills 💻</h2>
+      <p>I have skills in the following languages: Html5, CSS3, JavaScript, WordPress, Ruby, Ruby on rails</p>
+    </div>
+    <!--My services-->
+    <div class="card-profile">
+      <h2>My services 🌐</h2>
+      <!-- card 1-->
+    <div id="card-display">
+      <div class="cards">
+        <img src="images/code.jpg" alt="code picture">
+        <div class="cards_containers">
+            <h4>Website Development</h4>
+        </div>
+      </div>
+      <!--card 2-->
+      <div class="cards">
+          <img src="images/seo.jpg" alt="code picture">
+          <div class="cards_containers">
+              <h4>SEO</h4>
+          </div>
+      </div>
+      <!--card 3-->
+      <div class="cards">
+          <img src="images/marketing.jpg" alt="code picture">
+          <div class="cards_containers">
+              <h4>Growth Hacking</h4>
+          </div>
+      </div>
+    </div>
+    </div>
+    <div class="card-profile">
+      <div id="footer-edit">
+        <h2>Contact Me 📬</h2>
+        <p>We can meet online or around a coffee</p>
+            <form action="" method="post" id="contact_form">
+            <div>
+                <p>
+                    <input type="text" name="Firstname" id="firstname" placeholder="Firstname" required>
+                </p>
+                <p>
+                    <input type="text" name="Lastname" id="lastname" placeholder="Lastname" required>
+                </p>
+                <p>
+                    <input type="email" pattern=".+@globex\.com" size="30" placeholder="Email" required>
+                </p>
+                <p>
+                    <p>
+                        <textarea name="message" id="message" cols="30" rows="10" placeholder="Your message here"></textarea>
+                    </p>
+                </p>
+            </form>
+      </div>
+    </div>
+  </main>
+  <footer>
+    <div class="card-profile">
+      <h2>Follow me &#128241;</h2>
+      <ul  id="follow">
+        <li><a href="https://github.com/" target="_blanc"><i class="fab fa-github"></i></a></li>
+        <li><a href="https://fr.linkedin.com/" target="_blanc"><i class="fab fa-linkedin"></i></a></li>
+        <li><a href="https://www.instagram.com/?hl=fr" target="_blanc"><i class="fab fa-instagram"></i></a></li>
+        <li><a href="https://twitter.com/" target="_blanc" ><i class="fab fa-twitter"></i></a></li>
+      </ul>
+      <p>Copyright ©</p>
+    </div>
+  </footer>
+</body>
+</html>
